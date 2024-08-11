@@ -1,0 +1,14 @@
+name: perfix
+version: '1.0.0'
+main: kr.apo2073.perfix.Perfix
+api-version: '1.20'
+authors: [ 아포칼립스 ]
+commands:
+  perfix:
+    description: 칭호북 만들기
+    permission: perfix.make
+  칭호:
+    permission: perfix.open
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.0
